@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16BC189C2391032C00B7FA18 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC189B2391032C00B7FA18 /* AppTheme.swift */; };
+		16BC189E2391038200B7FA18 /* UIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC189D2391038200B7FA18 /* UIConstant.swift */; };
+		16BC18A7239104FE00B7FA18 /* LocalLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18A6239104FE00B7FA18 /* LocalLib.swift */; };
+		16BC18A92391051300B7FA18 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18A82391051300B7FA18 /* UIView+Extension.swift */; };
+		16BC18AC2391053900B7FA18 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18AB2391053900B7FA18 /* HUDView.swift */; };
+		16BC18AF2391056A00B7FA18 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18AE2391056A00B7FA18 /* UserDefaults.swift */; };
+		16BC18B12391057F00B7FA18 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B02391057F00B7FA18 /* Networking.swift */; };
+		16BC18B4239105B500B7FA18 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B3239105B500B7FA18 /* ExampleModel.swift */; };
+		16BC18B62391065C00B7FA18 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B52391065C00B7FA18 /* AppConstant.swift */; };
+		16BC18BA2391069C00B7FA18 /* ExampleEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B92391069C00B7FA18 /* ExampleEnums.swift */; };
 		1C0D15AA237C4B5F002A27B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */; };
 		1C0D15AE237C4B5F002A27B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15AD237C4B5F002A27B4 /* ViewController.swift */; };
 		1C0D15B1237C4B5F002A27B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D15AF237C4B5F002A27B4 /* Main.storyboard */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16BC189B2391032C00B7FA18 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		16BC189D2391038200B7FA18 /* UIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstant.swift; sourceTree = "<group>"; };
+		16BC18A6239104FE00B7FA18 /* LocalLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLib.swift; sourceTree = "<group>"; };
+		16BC18A82391051300B7FA18 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		16BC18AB2391053900B7FA18 /* HUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		16BC18AE2391056A00B7FA18 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		16BC18B02391057F00B7FA18 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		16BC18B3239105B500B7FA18 /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		16BC18B52391065C00B7FA18 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		16BC18B92391069C00B7FA18 /* ExampleEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleEnums.swift; sourceTree = "<group>"; };
 		1C0D15A6237C4B5F002A27B4 /* ios_open_source_learnig_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_open_source_learnig_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C0D15AD237C4B5F002A27B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +99,148 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16BC18962391018A00B7FA18 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				16BC1897239101CC00B7FA18 /* Features */,
+				16BC18B82391068200B7FA18 /* Enums */,
+				16BC18B72391066500B7FA18 /* Constant */,
+				16BC18A52391049900B7FA18 /* AppConfig */,
+				16BC18A42391047D00B7FA18 /* Lib */,
+				16BC1898239101D800B7FA18 /* Extensions */,
+				16BC18A22391043900B7FA18 /* UIComponents */,
+				16BC189F239103AE00B7FA18 /* DataLayer */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		16BC1897239101CC00B7FA18 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18AD2391054600B7FA18 /* ExamplePage */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		16BC1898239101D800B7FA18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18A82391051300B7FA18 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		16BC189A2391021D00B7FA18 /* UISpecs */ = {
+			isa = PBXGroup;
+			children = (
+				16BC189B2391032C00B7FA18 /* AppTheme.swift */,
+			);
+			path = UISpecs;
+			sourceTree = "<group>";
+		};
+		16BC189F239103AE00B7FA18 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18B22391058500B7FA18 /* Models */,
+				16BC18A1239103FE00B7FA18 /* DataPersist */,
+				16BC18A0239103F200B7FA18 /* Networking */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		16BC18A0239103F200B7FA18 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18B02391057F00B7FA18 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		16BC18A1239103FE00B7FA18 /* DataPersist */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18AE2391056A00B7FA18 /* UserDefaults.swift */,
+			);
+			path = DataPersist;
+			sourceTree = "<group>";
+		};
+		16BC18A22391043900B7FA18 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18AA2391051A00B7FA18 /* HUDView */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		16BC18A32391046900B7FA18 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D15B7237C4B64002A27B4 /* Info.plist */,
+				1C0D15AF237C4B5F002A27B4 /* Main.storyboard */,
+				1C0D15B2237C4B64002A27B4 /* Assets.xcassets */,
+				1C0D15B4237C4B64002A27B4 /* LaunchScreen.storyboard */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		16BC18A42391047D00B7FA18 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18A6239104FE00B7FA18 /* LocalLib.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		16BC18A52391049900B7FA18 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */,
+				16BC189A2391021D00B7FA18 /* UISpecs */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		16BC18AA2391051A00B7FA18 /* HUDView */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18AB2391053900B7FA18 /* HUDView.swift */,
+			);
+			path = HUDView;
+			sourceTree = "<group>";
+		};
+		16BC18AD2391054600B7FA18 /* ExamplePage */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D15AD237C4B5F002A27B4 /* ViewController.swift */,
+			);
+			path = ExamplePage;
+			sourceTree = "<group>";
+		};
+		16BC18B22391058500B7FA18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18B3239105B500B7FA18 /* ExampleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16BC18B72391066500B7FA18 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18B52391065C00B7FA18 /* AppConstant.swift */,
+				16BC189D2391038200B7FA18 /* UIConstant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		16BC18B82391068200B7FA18 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18B92391069C00B7FA18 /* ExampleEnums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		1C0D159D237C4B5F002A27B4 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +266,8 @@
 		1C0D15A8237C4B5F002A27B4 /* ios_open_source_learnig_project */ = {
 			isa = PBXGroup;
 			children = (
-				1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */,
-				1C0D15AD237C4B5F002A27B4 /* ViewController.swift */,
-				1C0D15AF237C4B5F002A27B4 /* Main.storyboard */,
-				1C0D15B2237C4B64002A27B4 /* Assets.xcassets */,
-				1C0D15B4237C4B64002A27B4 /* LaunchScreen.storyboard */,
-				1C0D15B7237C4B64002A27B4 /* Info.plist */,
+				16BC18962391018A00B7FA18 /* Class */,
+				16BC18A32391046900B7FA18 /* Res */,
 			);
 			path = ios_open_source_learnig_project;
 			sourceTree = "<group>";
@@ -342,8 +500,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16BC18AC2391053900B7FA18 /* HUDView.swift in Sources */,
+				16BC18BA2391069C00B7FA18 /* ExampleEnums.swift in Sources */,
+				16BC18B62391065C00B7FA18 /* AppConstant.swift in Sources */,
+				16BC18A92391051300B7FA18 /* UIView+Extension.swift in Sources */,
+				16BC18A7239104FE00B7FA18 /* LocalLib.swift in Sources */,
+				16BC18B12391057F00B7FA18 /* Networking.swift in Sources */,
 				1C0D15AE237C4B5F002A27B4 /* ViewController.swift in Sources */,
+				16BC18AF2391056A00B7FA18 /* UserDefaults.swift in Sources */,
+				16BC18B4239105B500B7FA18 /* ExampleModel.swift in Sources */,
 				1C0D15AA237C4B5F002A27B4 /* AppDelegate.swift in Sources */,
+				16BC189C2391032C00B7FA18 /* AppTheme.swift in Sources */,
+				16BC189E2391038200B7FA18 /* UIConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
