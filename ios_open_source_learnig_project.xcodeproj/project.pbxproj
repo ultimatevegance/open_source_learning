@@ -16,7 +16,7 @@
 		16BC18B12391057F00B7FA18 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B02391057F00B7FA18 /* Networking.swift */; };
 		16BC18B4239105B500B7FA18 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B3239105B500B7FA18 /* ExampleModel.swift */; };
 		16BC18B62391065C00B7FA18 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B52391065C00B7FA18 /* AppConstant.swift */; };
-		16BC18BC2391150E00B7FA18 /* AppErrorEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18BB2391150E00B7FA18 /* AppErrorEnums.swift */; };
+		16BC18BC2391150E00B7FA18 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18BB2391150E00B7FA18 /* AppError.swift */; };
 		16BC18BE2391174000B7FA18 /* RESTFullAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18BD2391174000B7FA18 /* RESTFullAPIEnums.swift */; };
 		16BC18C02391181500B7FA18 /* AppCofigEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */; };
 		16BC18C22391196600B7FA18 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18C12391196600B7FA18 /* AppConfig.swift */; };
@@ -30,6 +30,7 @@
 		1C0D15B6237C4B64002A27B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D15B4237C4B64002A27B4 /* LaunchScreen.storyboard */; };
 		1C0D15C1237C4B65002A27B4 /* ios_open_source_learnig_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15C0237C4B65002A27B4 /* ios_open_source_learnig_projectTests.swift */; };
 		1C0D15CC237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15CB237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.swift */; };
+		1C532C412391397C00BCBFA9 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C532C402391397C00BCBFA9 /* NetworkConstant.swift */; };
 		B63898BBA2898F60BF6D0681 /* Pods_ios_open_source_learnig_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9951AA1521671CC86D14D1E /* Pods_ios_open_source_learnig_project.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +61,7 @@
 		16BC18B02391057F00B7FA18 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		16BC18B3239105B500B7FA18 /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
 		16BC18B52391065C00B7FA18 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
-		16BC18BB2391150E00B7FA18 /* AppErrorEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrorEnums.swift; sourceTree = "<group>"; };
+		16BC18BB2391150E00B7FA18 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		16BC18BD2391174000B7FA18 /* RESTFullAPIEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTFullAPIEnums.swift; sourceTree = "<group>"; };
 		16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCofigEnums.swift; sourceTree = "<group>"; };
 		16BC18C12391196600B7FA18 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
@@ -80,6 +81,7 @@
 		1C0D15C7237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_open_source_learnig_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0D15CB237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_open_source_learnig_projectUITests.swift; sourceTree = "<group>"; };
 		1C0D15CD237C4B65002A27B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C532C402391397C00BCBFA9 /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		61607026F9203D2AFA9F88DD /* Pods-ios_open_source_learnig_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_open_source_learnig_project.debug.xcconfig"; path = "Target Support Files/Pods-ios_open_source_learnig_project/Pods-ios_open_source_learnig_project.debug.xcconfig"; sourceTree = "<group>"; };
 		C5F26E0793A135E04E229E53 /* Pods-ios_open_source_learnig_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_open_source_learnig_project.release.xcconfig"; path = "Target Support Files/Pods-ios_open_source_learnig_project/Pods-ios_open_source_learnig_project.release.xcconfig"; sourceTree = "<group>"; };
 		C9951AA1521671CC86D14D1E /* Pods_ios_open_source_learnig_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_open_source_learnig_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,8 +118,6 @@
 			children = (
 				16BC18C323911E5C00B7FA18 /* Protocols */,
 				16BC1897239101CC00B7FA18 /* Features */,
-				16BC18B82391068200B7FA18 /* Enums */,
-				16BC18B72391066500B7FA18 /* Constant */,
 				16BC18A52391049900B7FA18 /* AppConfig */,
 				16BC18A42391047D00B7FA18 /* Lib */,
 				16BC1898239101D800B7FA18 /* Extensions */,
@@ -130,6 +130,8 @@
 		16BC1897239101CC00B7FA18 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1C532C43239139DF00BCBFA9 /* ProjectAutomationAppForMac */,
+				1C532C42239139B300BCBFA9 /* ProjectTemplateGeneratorForMac */,
 				16BC18AD2391054600B7FA18 /* ExamplePage */,
 			);
 			path = Features;
@@ -147,6 +149,7 @@
 		16BC189A2391021D00B7FA18 /* UISpecs */ = {
 			isa = PBXGroup;
 			children = (
+				16BC189D2391038200B7FA18 /* UIConstant.swift */,
 				16BC189B2391032C00B7FA18 /* AppTheme.swift */,
 			);
 			path = UISpecs;
@@ -165,8 +168,8 @@
 		16BC18A0239103F200B7FA18 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				1C532C3F2391386300BCBFA9 /* Core */,
 				16BC18C62391223900B7FA18 /* APIProvider */,
-				16BC18B02391057F00B7FA18 /* Networking.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -208,7 +211,10 @@
 		16BC18A52391049900B7FA18 /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
+				16BC18B52391065C00B7FA18 /* AppConstant.swift */,
 				16BC18C12391196600B7FA18 /* AppConfig.swift */,
+				16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */,
+				16BC18BB2391150E00B7FA18 /* AppError.swift */,
 				1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */,
 				16BC189A2391021D00B7FA18 /* UISpecs */,
 			);
@@ -237,25 +243,6 @@
 				16BC18B3239105B500B7FA18 /* ExampleModel.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		16BC18B72391066500B7FA18 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				16BC18B52391065C00B7FA18 /* AppConstant.swift */,
-				16BC189D2391038200B7FA18 /* UIConstant.swift */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
-		16BC18B82391068200B7FA18 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-				16BC18BB2391150E00B7FA18 /* AppErrorEnums.swift */,
-				16BC18BD2391174000B7FA18 /* RESTFullAPIEnums.swift */,
-				16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */,
-			);
-			path = Enums;
 			sourceTree = "<group>";
 		};
 		16BC18C323911E5C00B7FA18 /* Protocols */ = {
@@ -322,6 +309,30 @@
 				1C0D15CD237C4B65002A27B4 /* Info.plist */,
 			);
 			path = ios_open_source_learnig_projectUITests;
+			sourceTree = "<group>";
+		};
+		1C532C3F2391386300BCBFA9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18B02391057F00B7FA18 /* Networking.swift */,
+				16BC18BD2391174000B7FA18 /* RESTFullAPIEnums.swift */,
+				1C532C402391397C00BCBFA9 /* NetworkConstant.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1C532C42239139B300BCBFA9 /* ProjectTemplateGeneratorForMac */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProjectTemplateGeneratorForMac;
+			sourceTree = "<group>";
+		};
+		1C532C43239139DF00BCBFA9 /* ProjectAutomationAppForMac */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProjectAutomationAppForMac;
 			sourceTree = "<group>";
 		};
 		88DA39A6C512700EF1E66A9A /* Frameworks */ = {
@@ -545,11 +556,12 @@
 				1C0D15AE237C4B5F002A27B4 /* ViewController.swift in Sources */,
 				16BC18AF2391056A00B7FA18 /* UserDefaults.swift in Sources */,
 				16BC18B4239105B500B7FA18 /* ExampleModel.swift in Sources */,
+				1C532C412391397C00BCBFA9 /* NetworkConstant.swift in Sources */,
 				16BC18C82391225F00B7FA18 /* GithubAPI.swift in Sources */,
 				16BC18C523911E8C00B7FA18 /* RESTFullAPIProvider.swift in Sources */,
 				1C0D15AA237C4B5F002A27B4 /* AppDelegate.swift in Sources */,
 				16BC189C2391032C00B7FA18 /* AppTheme.swift in Sources */,
-				16BC18BC2391150E00B7FA18 /* AppErrorEnums.swift in Sources */,
+				16BC18BC2391150E00B7FA18 /* AppError.swift in Sources */,
 				16BC18BE2391174000B7FA18 /* RESTFullAPIEnums.swift in Sources */,
 				16BC189E2391038200B7FA18 /* UIConstant.swift in Sources */,
 			);
@@ -656,7 +668,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -710,7 +722,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

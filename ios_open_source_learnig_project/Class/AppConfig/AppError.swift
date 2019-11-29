@@ -10,12 +10,4 @@ import Foundation
 
 public enum AppError: Error {
     
-    public enum NetworkingError {
-        
-        case networkingUnavilaible
-        
-        case invalidUrl
-        
-        case serverError
-    }
 }

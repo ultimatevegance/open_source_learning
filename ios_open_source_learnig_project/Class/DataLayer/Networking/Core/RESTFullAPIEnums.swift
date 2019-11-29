@@ -8,6 +8,15 @@
 
 import Foundation
 
+public enum NetworkingError {
+    
+    case networkingUnavilaible
+    
+    case invalidUrl
+    
+    case serverError
+}
+
 /// Represents an HTTP task.
 public enum HTTPTask {
     
