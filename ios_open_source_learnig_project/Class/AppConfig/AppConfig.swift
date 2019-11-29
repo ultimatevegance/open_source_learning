@@ -1,5 +1,5 @@
 //
-//  ExampleEnums.swift
+//  AppConfig.swift
 //  ios_open_source_learnig_project
 //
 //  Created by xiongyongjie on 2019/11/29.
@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+public struct AppConfig {
+    var enviroment: AppEnviroment = .develop
+}

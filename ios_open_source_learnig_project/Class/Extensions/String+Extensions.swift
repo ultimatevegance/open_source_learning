@@ -1,5 +1,5 @@
 //
-//  AppConstant.swift
+//  String+Extensions.swift
 //  ios_open_source_learnig_project
 //
 //  Created by xiongyongjie on 2019/11/29.
@@ -8,8 +8,8 @@
 
 import Foundation
 
-public struct AppConstant {
-    
-    
-    
+extension String {
+    var urlEscaped: String {
+        return self.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)!
+    }
 }

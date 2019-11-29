@@ -16,7 +16,13 @@
 		16BC18B12391057F00B7FA18 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B02391057F00B7FA18 /* Networking.swift */; };
 		16BC18B4239105B500B7FA18 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B3239105B500B7FA18 /* ExampleModel.swift */; };
 		16BC18B62391065C00B7FA18 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B52391065C00B7FA18 /* AppConstant.swift */; };
-		16BC18BA2391069C00B7FA18 /* ExampleEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18B92391069C00B7FA18 /* ExampleEnums.swift */; };
+		16BC18BC2391150E00B7FA18 /* AppErrorEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18BB2391150E00B7FA18 /* AppErrorEnums.swift */; };
+		16BC18BE2391174000B7FA18 /* RESTFullAPIEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18BD2391174000B7FA18 /* RESTFullAPIEnums.swift */; };
+		16BC18C02391181500B7FA18 /* AppCofigEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */; };
+		16BC18C22391196600B7FA18 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18C12391196600B7FA18 /* AppConfig.swift */; };
+		16BC18C523911E8C00B7FA18 /* RESTFullAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18C423911E8C00B7FA18 /* RESTFullAPIProvider.swift */; };
+		16BC18C82391225F00B7FA18 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18C72391225F00B7FA18 /* GithubAPI.swift */; };
+		16BC18CA2391232200B7FA18 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18C92391232200B7FA18 /* String+Extensions.swift */; };
 		1C0D15AA237C4B5F002A27B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */; };
 		1C0D15AE237C4B5F002A27B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15AD237C4B5F002A27B4 /* ViewController.swift */; };
 		1C0D15B1237C4B5F002A27B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D15AF237C4B5F002A27B4 /* Main.storyboard */; };
@@ -54,7 +60,13 @@
 		16BC18B02391057F00B7FA18 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		16BC18B3239105B500B7FA18 /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
 		16BC18B52391065C00B7FA18 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
-		16BC18B92391069C00B7FA18 /* ExampleEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleEnums.swift; sourceTree = "<group>"; };
+		16BC18BB2391150E00B7FA18 /* AppErrorEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrorEnums.swift; sourceTree = "<group>"; };
+		16BC18BD2391174000B7FA18 /* RESTFullAPIEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTFullAPIEnums.swift; sourceTree = "<group>"; };
+		16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCofigEnums.swift; sourceTree = "<group>"; };
+		16BC18C12391196600B7FA18 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		16BC18C423911E8C00B7FA18 /* RESTFullAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTFullAPIProvider.swift; sourceTree = "<group>"; };
+		16BC18C72391225F00B7FA18 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		16BC18C92391232200B7FA18 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		1C0D15A6237C4B5F002A27B4 /* ios_open_source_learnig_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_open_source_learnig_project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C0D15AD237C4B5F002A27B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +114,7 @@
 		16BC18962391018A00B7FA18 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				16BC18C323911E5C00B7FA18 /* Protocols */,
 				16BC1897239101CC00B7FA18 /* Features */,
 				16BC18B82391068200B7FA18 /* Enums */,
 				16BC18B72391066500B7FA18 /* Constant */,
@@ -126,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				16BC18A82391051300B7FA18 /* UIView+Extension.swift */,
+				16BC18C92391232200B7FA18 /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -151,6 +165,7 @@
 		16BC18A0239103F200B7FA18 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				16BC18C62391223900B7FA18 /* APIProvider */,
 				16BC18B02391057F00B7FA18 /* Networking.swift */,
 			);
 			path = Networking;
@@ -175,7 +190,6 @@
 		16BC18A32391046900B7FA18 /* Res */ = {
 			isa = PBXGroup;
 			children = (
-				1C0D15B7237C4B64002A27B4 /* Info.plist */,
 				1C0D15AF237C4B5F002A27B4 /* Main.storyboard */,
 				1C0D15B2237C4B64002A27B4 /* Assets.xcassets */,
 				1C0D15B4237C4B64002A27B4 /* LaunchScreen.storyboard */,
@@ -194,6 +208,7 @@
 		16BC18A52391049900B7FA18 /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
+				16BC18C12391196600B7FA18 /* AppConfig.swift */,
 				1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */,
 				16BC189A2391021D00B7FA18 /* UISpecs */,
 			);
@@ -236,9 +251,27 @@
 		16BC18B82391068200B7FA18 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				16BC18B92391069C00B7FA18 /* ExampleEnums.swift */,
+				16BC18BB2391150E00B7FA18 /* AppErrorEnums.swift */,
+				16BC18BD2391174000B7FA18 /* RESTFullAPIEnums.swift */,
+				16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		16BC18C323911E5C00B7FA18 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18C423911E8C00B7FA18 /* RESTFullAPIProvider.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		16BC18C62391223900B7FA18 /* APIProvider */ = {
+			isa = PBXGroup;
+			children = (
+				16BC18C72391225F00B7FA18 /* GithubAPI.swift */,
+			);
+			path = APIProvider;
 			sourceTree = "<group>";
 		};
 		1C0D159D237C4B5F002A27B4 = {
@@ -266,6 +299,7 @@
 		1C0D15A8237C4B5F002A27B4 /* ios_open_source_learnig_project */ = {
 			isa = PBXGroup;
 			children = (
+				1C0D15B7237C4B64002A27B4 /* Info.plist */,
 				16BC18962391018A00B7FA18 /* Class */,
 				16BC18A32391046900B7FA18 /* Res */,
 			);
@@ -501,16 +535,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				16BC18AC2391053900B7FA18 /* HUDView.swift in Sources */,
-				16BC18BA2391069C00B7FA18 /* ExampleEnums.swift in Sources */,
 				16BC18B62391065C00B7FA18 /* AppConstant.swift in Sources */,
+				16BC18C02391181500B7FA18 /* AppCofigEnums.swift in Sources */,
 				16BC18A92391051300B7FA18 /* UIView+Extension.swift in Sources */,
+				16BC18CA2391232200B7FA18 /* String+Extensions.swift in Sources */,
 				16BC18A7239104FE00B7FA18 /* LocalLib.swift in Sources */,
 				16BC18B12391057F00B7FA18 /* Networking.swift in Sources */,
+				16BC18C22391196600B7FA18 /* AppConfig.swift in Sources */,
 				1C0D15AE237C4B5F002A27B4 /* ViewController.swift in Sources */,
 				16BC18AF2391056A00B7FA18 /* UserDefaults.swift in Sources */,
 				16BC18B4239105B500B7FA18 /* ExampleModel.swift in Sources */,
+				16BC18C82391225F00B7FA18 /* GithubAPI.swift in Sources */,
+				16BC18C523911E8C00B7FA18 /* RESTFullAPIProvider.swift in Sources */,
 				1C0D15AA237C4B5F002A27B4 /* AppDelegate.swift in Sources */,
 				16BC189C2391032C00B7FA18 /* AppTheme.swift in Sources */,
+				16BC18BC2391150E00B7FA18 /* AppErrorEnums.swift in Sources */,
+				16BC18BE2391174000B7FA18 /* RESTFullAPIEnums.swift in Sources */,
 				16BC189E2391038200B7FA18 /* UIConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
