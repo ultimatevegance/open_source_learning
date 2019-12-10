@@ -10,7 +10,6 @@ import Foundation
 import Alamofire
 
 extension GitHub: RESTFullAPIProvider {
-    
     public var validationType: ValidationType {
         <#code#>
     }

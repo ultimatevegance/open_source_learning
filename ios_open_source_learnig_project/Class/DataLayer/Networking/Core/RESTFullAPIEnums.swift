@@ -51,12 +51,3 @@ public enum ValidationType {
         }
     }
 }
-
-//MARK: -API Provider
-
-public enum GitHub {
-    case zen
-    case userProfile(String)
-    case userRepositories(String)
-}
-

@@ -32,6 +32,7 @@
 		1C0D15CC237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15CB237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.swift */; };
 		1C532C412391397C00BCBFA9 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C532C402391397C00BCBFA9 /* NetworkConstant.swift */; };
 		1C532C4723913C8700BCBFA9 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C532C4623913C8700BCBFA9 /* AppLogger.swift */; };
+		2F409E92239EB47300BC7067 /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F409E91239EB47300BC7067 /* APIProvider.swift */; };
 		B63898BBA2898F60BF6D0681 /* Pods_ios_open_source_learnig_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9951AA1521671CC86D14D1E /* Pods_ios_open_source_learnig_project.framework */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		1C0D15CD237C4B65002A27B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C532C402391397C00BCBFA9 /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		1C532C4623913C8700BCBFA9 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		2F409E91239EB47300BC7067 /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 		61607026F9203D2AFA9F88DD /* Pods-ios_open_source_learnig_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_open_source_learnig_project.debug.xcconfig"; path = "Target Support Files/Pods-ios_open_source_learnig_project/Pods-ios_open_source_learnig_project.debug.xcconfig"; sourceTree = "<group>"; };
 		C5F26E0793A135E04E229E53 /* Pods-ios_open_source_learnig_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_open_source_learnig_project.release.xcconfig"; path = "Target Support Files/Pods-ios_open_source_learnig_project/Pods-ios_open_source_learnig_project.release.xcconfig"; sourceTree = "<group>"; };
 		C9951AA1521671CC86D14D1E /* Pods_ios_open_source_learnig_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_open_source_learnig_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,11 +216,11 @@
 		16BC18A52391049900B7FA18 /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
+				1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */,
 				16BC18B52391065C00B7FA18 /* AppConstant.swift */,
 				16BC18C12391196600B7FA18 /* AppConfig.swift */,
 				16BC18BF2391181500B7FA18 /* AppCofigEnums.swift */,
 				16BC18BB2391150E00B7FA18 /* AppError.swift */,
-				1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */,
 				16BC189A2391021D00B7FA18 /* UISpecs */,
 			);
 			path = AppConfig;
@@ -259,6 +261,7 @@
 		16BC18C62391223900B7FA18 /* APIProvider */ = {
 			isa = PBXGroup;
 			children = (
+				2F409E91239EB47300BC7067 /* APIProvider.swift */,
 				16BC18C72391225F00B7FA18 /* GithubAPI.swift */,
 			);
 			path = APIProvider;
@@ -566,6 +569,7 @@
 			files = (
 				16BC18AC2391053900B7FA18 /* HUDView.swift in Sources */,
 				16BC18B62391065C00B7FA18 /* AppConstant.swift in Sources */,
+				2F409E92239EB47300BC7067 /* APIProvider.swift in Sources */,
 				16BC18C02391181500B7FA18 /* AppCofigEnums.swift in Sources */,
 				16BC18A92391051300B7FA18 /* UIView+Extension.swift in Sources */,
 				16BC18CA2391232200B7FA18 /* String+Extensions.swift in Sources */,
