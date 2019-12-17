@@ -19,6 +19,7 @@ target 'ios_open_source_learnig_project' do
 	pod 'Toast-Swift'
 	pod 'RxSwift'
 	pod 'RxCocoa'
+	pod 'IGListKit'
 
 end
 
