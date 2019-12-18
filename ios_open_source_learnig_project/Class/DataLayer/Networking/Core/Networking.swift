@@ -7,8 +7,38 @@
 //
 
 import Foundation
-import Alamofire
+import Moya
 
-struct Network {
+/// App Enviroment
+public enum Enviroment {
+
+    case debug
+    
+    case stagging
+    
+    case release
+    
 }
+
+public struct Network {
+    
+    public static let shared = Network()
+
+    var env:Enviroment = .debug
+    
+    let newsProviver = MoyaProvider<NewsApi>()
+}
+
+extension Network {
+    
+    func getAnyObject(provider:TargetType) {
+        
+    }
+    
+    func getObjectArray() {
+        
+    }
+    
+}
+
 
