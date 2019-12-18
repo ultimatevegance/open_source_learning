@@ -9,37 +9,37 @@
 import Foundation
 import Alamofire
 
-extension GitHub: RESTFullAPIProvider {
-    public var validationType: ValidationType {
-        <#code#>
-    }
-    
-    public var baseURL: URL {
-        return URL(string: "https://api.github.com")!
-    }
-    
-    public var path: String {
-        switch self {
-        case .zen:
-            return "/zen"
-        case .userProfile(let name):
-            return "/users/\(name.urlEscaped)"
-        case .userRepositories(let name):
-            return "/users/\(name.urlEscaped)/repos"
-        }
-    }
-    
-    public var method: HTTPMethod {
-        return .get
-    }
-    
-    public var headers: [String : String]? {
-        return nil
-    }
-        
-    public var task: HTTPTask {
-        <#code#>
-    }
-
-    
-}
+//extension GitHub: RESTFullAPIProvider {
+//    public var validationType: ValidationType {
+//        <#code#>
+//    }
+//
+//    public var baseURL: URL {
+//        return URL(string: "https://api.github.com")!
+//    }
+//
+//    public var path: String {
+//        switch self {
+//        case .zen:
+//            return "/zen"
+//        case .userProfile(let name):
+//            return "/users/\(name.urlEscaped)"
+//        case .userRepositories(let name):
+//            return "/users/\(name.urlEscaped)/repos"
+//        }
+//    }
+//
+//    public var method: HTTPMethod {
+//        return .get
+//    }
+//
+//    public var headers: [String : String]? {
+//        return nil
+//    }
+//
+//    public var task: HTTPTask {
+//        <#code#>
+//    }
+//
+//
+//}

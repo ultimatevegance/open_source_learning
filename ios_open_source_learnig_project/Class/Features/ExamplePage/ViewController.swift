@@ -9,11 +9,13 @@
 import UIKit
 import RxSwift
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let ss = UIImageView()
+        ss.image = R.image.test()
     }
 
 

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16161B3923A9D90C00BB04E7 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16161B3823A9D90C00BB04E7 /* Icons.xcassets */; };
+		16161B3C23A9D9C000BB04E7 /* themeColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16161B3B23A9D9C000BB04E7 /* themeColors.xcassets */; };
+		16161B3F23A9E63400BB04E7 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16161B3E23A9E63400BB04E7 /* R.generated.swift */; };
 		16BC189C2391032C00B7FA18 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC189B2391032C00B7FA18 /* AppTheme.swift */; };
 		16BC189E2391038200B7FA18 /* UIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC189D2391038200B7FA18 /* UIConstant.swift */; };
 		16BC18A7239104FE00B7FA18 /* LocalLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BC18A6239104FE00B7FA18 /* LocalLib.swift */; };
@@ -26,7 +29,7 @@
 		1C0D15AA237C4B5F002A27B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */; };
 		1C0D15AE237C4B5F002A27B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15AD237C4B5F002A27B4 /* ViewController.swift */; };
 		1C0D15B1237C4B5F002A27B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D15AF237C4B5F002A27B4 /* Main.storyboard */; };
-		1C0D15B3237C4B64002A27B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D15B2237C4B64002A27B4 /* Assets.xcassets */; };
+		1C0D15B3237C4B64002A27B4 /* brand.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D15B2237C4B64002A27B4 /* brand.xcassets */; };
 		1C0D15B6237C4B64002A27B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0D15B4237C4B64002A27B4 /* LaunchScreen.storyboard */; };
 		1C0D15C1237C4B65002A27B4 /* ios_open_source_learnig_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15C0237C4B65002A27B4 /* ios_open_source_learnig_projectTests.swift */; };
 		1C0D15CC237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0D15CB237C4B65002A27B4 /* ios_open_source_learnig_projectUITests.swift */; };
@@ -54,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16161B3823A9D90C00BB04E7 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		16161B3B23A9D9C000BB04E7 /* themeColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = themeColors.xcassets; sourceTree = "<group>"; };
+		16161B3E23A9E63400BB04E7 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		16BC189B2391032C00B7FA18 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		16BC189D2391038200B7FA18 /* UIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstant.swift; sourceTree = "<group>"; };
 		16BC18A6239104FE00B7FA18 /* LocalLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLib.swift; sourceTree = "<group>"; };
@@ -74,7 +80,7 @@
 		1C0D15A9237C4B5F002A27B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C0D15AD237C4B5F002A27B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C0D15B0237C4B5F002A27B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1C0D15B2237C4B64002A27B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0D15B2237C4B64002A27B4 /* brand.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = brand.xcassets; sourceTree = "<group>"; };
 		1C0D15B5237C4B64002A27B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C0D15B7237C4B64002A27B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C0D15BC237C4B65002A27B4 /* ios_open_source_learnig_projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_open_source_learnig_projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,12 +123,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16161B3423A9D84E00BB04E7 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		16161B3523A9D8C500BB04E7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D15B2237C4B64002A27B4 /* brand.xcassets */,
+				16161B3823A9D90C00BB04E7 /* Icons.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		16161B3623A9D8D000BB04E7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		16161B3723A9D8DC00BB04E7 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C0D15AF237C4B5F002A27B4 /* Main.storyboard */,
+				1C0D15B4237C4B64002A27B4 /* LaunchScreen.storyboard */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		16161B3A23A9D98C00BB04E7 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				16161B3B23A9D9C000BB04E7 /* themeColors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		16BC18962391018A00B7FA18 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				16BC1897239101CC00B7FA18 /* Features */,
 				1C532C4423913C5F00BCBFA9 /* Utility */,
 				16BC18C323911E5C00B7FA18 /* Protocols */,
-				16BC1897239101CC00B7FA18 /* Features */,
 				16BC18A52391049900B7FA18 /* AppConfig */,
 				16BC18A42391047D00B7FA18 /* Lib */,
 				16BC1898239101D800B7FA18 /* Extensions */,
@@ -198,9 +244,12 @@
 		16BC18A32391046900B7FA18 /* Res */ = {
 			isa = PBXGroup;
 			children = (
-				1C0D15AF237C4B5F002A27B4 /* Main.storyboard */,
-				1C0D15B2237C4B64002A27B4 /* Assets.xcassets */,
-				1C0D15B4237C4B64002A27B4 /* LaunchScreen.storyboard */,
+				16161B3E23A9E63400BB04E7 /* R.generated.swift */,
+				16161B3A23A9D98C00BB04E7 /* Colors */,
+				16161B3723A9D8DC00BB04E7 /* Files */,
+				16161B3623A9D8D000BB04E7 /* Fonts */,
+				16161B3523A9D8C500BB04E7 /* Images */,
+				16161B3423A9D84E00BB04E7 /* Strings */,
 			);
 			path = Res;
 			sourceTree = "<group>";
@@ -382,6 +431,7 @@
 			buildConfigurationList = 1C0D15D0237C4B65002A27B4 /* Build configuration list for PBXNativeTarget "ios_open_source_learnig_project" */;
 			buildPhases = (
 				64FA3432D95D7BA21CC44FCB /* [CP] Check Pods Manifest.lock */,
+				16161B3D23A9E53200BB04E7 /* ShellScript */,
 				1C0D15A2237C4B5F002A27B4 /* Sources */,
 				1C0D15A3237C4B5F002A27B4 /* Frameworks */,
 				1C0D15A4237C4B5F002A27B4 /* Resources */,
@@ -482,8 +532,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C0D15B6237C4B64002A27B4 /* LaunchScreen.storyboard in Resources */,
-				1C0D15B3237C4B64002A27B4 /* Assets.xcassets in Resources */,
+				1C0D15B3237C4B64002A27B4 /* brand.xcassets in Resources */,
+				16161B3C23A9D9C000BB04E7 /* themeColors.xcassets in Resources */,
 				1C0D15B1237C4B5F002A27B4 /* Main.storyboard in Resources */,
+				16161B3923A9D90C00BB04E7 /* Icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +556,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		16161B3D23A9E53200BB04E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 		52A1A64588CF5D7B4CF3F309 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,6 +647,7 @@
 				16BC18A7239104FE00B7FA18 /* LocalLib.swift in Sources */,
 				16BC18B12391057F00B7FA18 /* Networking.swift in Sources */,
 				16BC18C22391196600B7FA18 /* AppConfig.swift in Sources */,
+				16161B3F23A9E63400BB04E7 /* R.generated.swift in Sources */,
 				1C0D15AE237C4B5F002A27B4 /* ViewController.swift in Sources */,
 				16BC18AF2391056A00B7FA18 /* UserDefaults.swift in Sources */,
 				16BC18B4239105B500B7FA18 /* ExampleModel.swift in Sources */,

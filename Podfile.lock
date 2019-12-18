@@ -14,16 +14,16 @@ PODS:
   - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
-  - NIMKit/Core (2.12.10):
+  - NIMKit/Core (2.12.11):
     - FLAnimatedImage (~> 1.0.12)
     - M80AttributedLabel (~> 1.9.9)
     - SDWebImage (~> 5.0.6)
     - Toast (~> 3.0)
     - TZImagePickerController (~> 3.2.1)
-  - NIMKit/Full (2.12.10):
+  - NIMKit/Full (2.12.11):
     - NIMKit/Core
-    - NIMSDK (~> 7.0.3)
-  - NIMSDK (7.0.3)
+    - NIMSDK (~> 7.1.0)
+  - NIMSDK (7.1.0)
   - QMUIKit (4.0.4):
     - QMUIKit/QMUIComponents (= 4.0.4)
     - QMUIKit/QMUICore (= 4.0.4)
@@ -314,6 +314,9 @@ PODS:
     - QMUIKit/QMUICore
     - QMUIKit/QMUILog
   - QMUIKit/QMUIWeakObjectContainer (4.0.4)
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
   - Result (4.1.0)
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
@@ -342,6 +345,7 @@ DEPENDENCIES:
   - Moya
   - NIMKit/Full
   - QMUIKit
+  - R.swift
   - RxCocoa
   - RxSwift
   - SVProgressHUD
@@ -365,6 +369,8 @@ SPEC REPOS:
     - NIMKit
     - NIMSDK
     - QMUIKit
+    - R.swift
+    - R.swift.Library
     - Result
     - RxCocoa
     - RxRelay
@@ -389,9 +395,11 @@ SPEC CHECKSUMS:
   Kingfisher: dc6e0f53bb5b12c3e75bedb0e01bbd7a640eea69
   M80AttributedLabel: 77fedfe63804c989a6de0fa4d400ea8cad3ab441
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
-  NIMKit: ea5b162259e69c99619c891fc5bb72e98d9ec12a
-  NIMSDK: 76dfea3b739f837db806e6fc02113dab8ec97d4a
+  NIMKit: a828528ff14f9f6cd70eb14e28f025b4ee481867
+  NIMSDK: 41768aa97a09dcadde661fb52ce151a504dc9585
   QMUIKit: 73899f707bdd51f44d16e10d11f224fb821fbe74
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
@@ -407,6 +415,6 @@ SPEC CHECKSUMS:
   UIFontComplete: 9542d390ee6114412a585d979b09fe820896695d
   WLEmptyState: 2bbb3970f62c0b9252029d34a8f74cb3d436eeea
 
-PODFILE CHECKSUM: e4d5bea8c2be2990ad30d6ed992912bb10732e23
+PODFILE CHECKSUM: b17765fbdd5193429d471342ad91f6fc0edce08e
 
 COCOAPODS: 1.8.4
