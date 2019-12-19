@@ -20,7 +20,8 @@ target 'ios_open_source_learnig_project' do
 	pod 'RxSwift'
 	pod 'RxCocoa'
 	pod 'IGListKit'
-  pod 'R.swift'
+	pod 'ObjectMapper'
+	 pod 'R.swift'
 
 end
 

@@ -24,6 +24,7 @@ PODS:
     - NIMKit/Core
     - NIMSDK (~> 7.1.0)
   - NIMSDK (7.1.0)
+  - ObjectMapper (3.5.1)
   - QMUIKit (4.0.4):
     - QMUIKit/QMUIComponents (= 4.0.4)
     - QMUIKit/QMUICore (= 4.0.4)
@@ -344,6 +345,7 @@ DEPENDENCIES:
   - Kingfisher
   - Moya
   - NIMKit/Full
+  - ObjectMapper
   - QMUIKit
   - R.swift
   - RxCocoa
@@ -368,6 +370,7 @@ SPEC REPOS:
     - Moya
     - NIMKit
     - NIMSDK
+    - ObjectMapper
     - QMUIKit
     - R.swift
     - R.swift.Library
@@ -397,6 +400,7 @@ SPEC CHECKSUMS:
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   NIMKit: a828528ff14f9f6cd70eb14e28f025b4ee481867
   NIMSDK: 41768aa97a09dcadde661fb52ce151a504dc9585
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
   QMUIKit: 73899f707bdd51f44d16e10d11f224fb821fbe74
   R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
   R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
@@ -415,6 +419,6 @@ SPEC CHECKSUMS:
   UIFontComplete: 9542d390ee6114412a585d979b09fe820896695d
   WLEmptyState: 2bbb3970f62c0b9252029d34a8f74cb3d436eeea
 
-PODFILE CHECKSUM: b17765fbdd5193429d471342ad91f6fc0edce08e
+PODFILE CHECKSUM: 458e28c7c680bb26a9a91affe343416e29248abb
 
 COCOAPODS: 1.8.4

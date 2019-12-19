@@ -31,8 +31,7 @@ public struct Network {
 
 extension Network {
     
-    func getAnyObject(provider:TargetType) {
-        
+    func getAnyObject<P:MoyaProviderType>(provider:P) {
     }
     
     func getObjectArray() {

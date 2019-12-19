@@ -7,16 +7,19 @@
 //
 
 import Moya
+import RxSwift
 
 public enum NewsApi {
+    
     case topHeadlines
     case everything(query:String?)
 }
 
 extension NewsApi:TargetType {
-    
+
     public static let baseUrl = "https://newsapi.org/v2"
     public static let apiToken = "3046d49221d44d3083616f0eccf2e6c7"
+    public static let provider = MoyaProvider<NewsApi>(plugins: [NetworkLoggerPlugin(verbose: true)])
     
     public var baseURL: URL  {
         return  try! NewsApi.baseUrl.asURL()
@@ -56,4 +59,44 @@ extension NewsApi:TargetType {
     
 }
 
+extension NewsApi {
+    
+    private func requestObject<T: BaseMappable>(_ target: GithubAPI, type: T.Type) -> Single<T> {
+        return githubProvider.request(target)
+            .mapObject(T.self)
+            .observeOn(MainScheduler.instance)
+            .asSingle()
+    }
 
+    private func requestArray<T: BaseMappable>(_ target: GithubAPI, type: T.Type) -> Single<[T]> {
+        return githubProvider.request(target)
+            .mapArray(T.self)
+            .observeOn(MainScheduler.instance)
+            .asSingle()
+    }
+
+    private func requestDataArray(target:NewsApi) {
+        
+    }
+    
+    private func requestJSONDictionary() {
+        
+    }
+    
+    private func requestAnyObject() {
+        
+    }
+    
+    private func requestRawData() {
+        
+    }
+    
+}
+
+//MARK: -APICalls
+
+extension NewsApi {
+    public func getTopHeadlines() {
+        
+    }
+}
