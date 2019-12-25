@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - DeviceKit (2.3.0)
   - FLAnimatedImage (1.0.12)
   - Hero (1.5.0)
   - IGListDiffKit (4.0.0)
@@ -334,12 +335,13 @@ PODS:
   - SwiftyStoreKit (0.15.0)
   - Toast (3.1.0)
   - Toast-Swift (5.0.1)
-  - TZImagePickerController (3.2.8)
+  - TZImagePickerController (3.2.9)
   - UIFontComplete (4.0.0)
   - WLEmptyState (3.1.0)
 
 DEPENDENCIES:
   - Alamofire
+  - DeviceKit
   - Hero
   - IGListKit
   - Kingfisher
@@ -361,6 +363,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - DeviceKit
     - FLAnimatedImage
     - Hero
     - IGListDiffKit
@@ -391,6 +394,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DeviceKit: da103891aa928d89f64ea8dd8aca738c5f3d8ac0
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
   IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
@@ -415,10 +419,10 @@ SPEC CHECKSUMS:
   SwiftyStoreKit: 033d06b6f87955405d3f844a18a7687c2438592a
   Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
-  TZImagePickerController: 4b0a5d3abe6351b6c9ec52c7be0fa9a5bbca23f6
+  TZImagePickerController: 1f92968aa0e98a06b9e2eccca8560acc19254257
   UIFontComplete: 9542d390ee6114412a585d979b09fe820896695d
   WLEmptyState: 2bbb3970f62c0b9252029d34a8f74cb3d436eeea
 
-PODFILE CHECKSUM: 458e28c7c680bb26a9a91affe343416e29248abb
+PODFILE CHECKSUM: 757c2f1630825c19f57601dde02993d614c631cc
 
 COCOAPODS: 1.8.4
