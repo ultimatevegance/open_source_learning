@@ -11,3 +11,4 @@ import Foundation
 public struct AppConfig {
     var enviroment: AppEnviroment = .develop
 }
+
